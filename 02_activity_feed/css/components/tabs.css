@@ -1,0 +1,24 @@
+/* Your tabs CSS code here */
+/* .tabs {
+
+} */
+
+.tabs > a {
+  padding-bottom: 8px;
+  margin: 0 12px;
+  font-size: 16px;
+  color: black;
+  opacity: .4;
+  display: inline-block;
+}
+
+.tabs > a:hover {
+  opacity: .7;
+}
+
+.tabs > a.active {
+  border-bottom: 2px solid black;
+  color: black;
+  font-weight: bold;
+  opacity: 1;
+}

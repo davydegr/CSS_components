@@ -1,0 +1,60 @@
+.notifications {
+  margin-top: 16px;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.1);
+}
+
+.notification {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+
+.notification:last-child {
+  border-bottom: 0px solid black;
+}
+
+.notification:hover .notification-hover-state {
+  opacity: .4;
+  transition: .5s ease;
+}
+
+.notification:hover .notification-hover-state:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+.notification-hover-state {
+  color: black;
+  opacity: 0;
+  margin-right: 15px;
+}
+
+.notification-info {
+  padding: 16px  16px 16px;
+  flex-grow: 1;
+}
+
+.notification-date {
+  color: #999999;
+  font-weight: bold;
+  font-size: .8rem;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+}
+
+.notification-content {
+  margin: 0;
+  padding: 0;
+}
+
+.notification-content-url {
+  color:#268BD2;
+  opacity: .8;
+}
+
+.notification-content-url:hover {
+  opacity: 1;
+}
